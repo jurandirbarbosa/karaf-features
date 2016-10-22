@@ -14,7 +14,7 @@
 	<!-- Feature Org Apache Karaf -->
 	<feature name="shell-sample-commands" version="${pom.version}">
 		<bundle>mvn:com.github.jurandirbarbosa/shell-controller-test/${pom.version}</bundle>
-	</features>
+	</feature>
 	
 <!--    
     <feature name="example-tasklist-persistence" version="${pom.version}">
