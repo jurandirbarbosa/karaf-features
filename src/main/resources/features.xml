@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features
+    xmlns="http://karaf.apache.org/xmlns/features/v1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.0.0 http://karaf.apache.org/xmlns/features/v1.0.0"
+    name="shell-samples"
+>
+
+	<!-- Feature Main -->
+    <feature name="shell-samples" version="${pom.version}">
+        <feature>shell-sample-commands</feature>
+    </feature>
+
+	<!-- Feature Org Apache Karaf -->
+	<feature name="shell-sample-commands" version="${pom.version}">
+		<bundle>mvn:com.github.jurandirbarbosa/shell-controller-test/${pom.version}</bundle>
+	</features>
+	
+<!--    
+    <feature name="example-tasklist-persistence" version="${pom.version}">
+        <bundle>mvn:net.lr.tasklist/tasklist-model/${pom.version}</bundle>
+        <bundle>mvn:net.lr.tasklist/tasklist-persistence/${pom.version}</bundle>
+        <bundle>mvn:net.lr.tasklist/tasklist-command/${pom.version}</bundle>
+    </feature>
+
+    <feature name="example-tasklist-ui" version="${pom.version}">
+        <feature>http</feature>
+        <feature>http-whiteboard</feature>
+        <bundle>mvn:net.lr.tasklist/tasklist-model/${pom.version}</bundle>
+        <bundle>mvn:net.lr.tasklist/tasklist-ui/${pom.version}</bundle>
+    </feature>
+-->
+	
+</features>
