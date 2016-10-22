@@ -3,9 +3,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>br.ufba.dcc.wiser.jurandir</groupId>
+    <groupId>com.github.jurandirbarbosa</groupId>
     <artifactId>karaf-features</artifactId>
-    <version>1.0</version>
+    <version>1.2</version>
     <packaging>pom</packaging>
 
     <build>
